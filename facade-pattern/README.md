@@ -1,0 +1,1 @@
+﻿The facade pattern is a structural design pattern for simplifying 
