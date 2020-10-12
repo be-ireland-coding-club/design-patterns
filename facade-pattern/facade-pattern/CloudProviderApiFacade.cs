@@ -3,12 +3,11 @@ namespace facade_pattern
 {
     public class CloudProviderApiFacade
     {
-        private CloudProviderApi api;
-        public CloudProviderApiFacade()
+        private readonly ICloudProviderApi api;
+        public CloudProviderApiFacade(ICloudProviderApi api)
         {
-            api = new CloudProviderApi();
+            this.api = api;
         }
-
 
         public string CreateVirtualMachine(string tenantName, string accountName, string virtualMachineName)
         {

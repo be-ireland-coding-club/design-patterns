@@ -8,7 +8,7 @@ namespace facade_pattern
         {
             Console.WriteLine("Facade Demo");
 
-            CloudProviderApiFacade facade = new CloudProviderApiFacade();
+            CloudProviderApiFacade facade = new CloudProviderApiFacade(new CloudProviderApi());
             // Should Create Successfully
             Console.WriteLine(facade.CreateVirtualMachine("tenant","account","vm"));
             // Should fail to create VM

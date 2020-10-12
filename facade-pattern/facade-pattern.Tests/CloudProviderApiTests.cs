@@ -5,7 +5,7 @@ namespace facade_pattern.Tests
 {
     public class CloudProviderApiTests
     {
-        CloudProviderApi unitUnderTest;
+        private readonly ICloudProviderApi unitUnderTest;
 
         public CloudProviderApiTests()
         {
