@@ -7,4 +7,4 @@ In this example solution the product being created is an invoice, the creator of
 For more information about the Factory Pattern you can read up on it [here](https://refactoring.guru/design-patterns/factory-method).
 
 # UML Diagram of Invoice Example
-![UML Diagram](./imgs/factory-method-uml.png)
+![UML Diagram](./Imgs/factory-method-uml.png)
