@@ -351,3 +351,8 @@ MigrationBackup/
 
 # MAC OSX - DS Store
 .DS_Store
+/observer-pattern2/target/
+/observer-pattern2/nbproject/
+/observer-pattern/target/
+/state-pattern/target/
+/state-pattern/nbproject/
